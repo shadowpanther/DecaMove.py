@@ -65,7 +65,7 @@ ws_thread.start()
 while True:
     try:
         print(DecaMoveStatus)
-        time.sleep(1)
+        time.sleep(0.2)
     except KeyboardInterrupt:
         break
     except Exception as e:
